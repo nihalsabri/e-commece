@@ -1,8 +1,8 @@
-#React E-Commerce App
+# React E-Commerce App
 
 🚀 Welcome to the React E-Commerce App – a fully functional online shopping platform built with React, Redux, and React Router! This app provides a smooth and engaging shopping experience with features like user authentication, product listings, a shopping cart, and protected routes.
 
-##✨ Features
+## ✨ Features
 
 🔐 User Authentication: Sign in and log out with ease.
 
