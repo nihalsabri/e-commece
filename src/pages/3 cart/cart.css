@@ -1,0 +1,157 @@
+.cart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .cart-item h2 {
+    font-size: 16px;
+    font-weight: bold;
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .cart-item p {
+    font-size: 14px;
+    margin: 10px 0;
+    margin-right: 20px;
+  }
+  
+  .cart-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  
+  }
+  
+  .cart-actions button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+ 
+  }
+  
+  .cart-actions button:hover {
+    background-color: #219150;
+  }
+  
+  .cart-remove {
+    background-color: #e74c3c !important;
+    padding: 2px;
+  }
+  
+  .cart-remove:hover {
+    background-color: #c0392b !important;
+  }
+  
+  .remove-all-btn {
+    background-color: #ff4757;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .remove-all-btn:hover {
+    background-color: #e84118;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Modal Styles */
+  .ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  .ReactModal__Content {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+    height: 300px;
+    
+    align-items: center;
+  }
+  
+  .ReactModal__Content h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .ReactModal__Content button {
+    margin: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .ReactModal__Content button:first-of-type {
+    background-color: #e74c3c;
+    color: white;
+
+  }
+  
+  .ReactModal__Content button:last-of-type {
+    background-color: #2d3436;
+    color: white;
+  }
+  
+  .ReactModal__Content button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .cart-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .cart-actions {
+      flex-direction: column;
+    }
+  
+    .cart-actions button {
+      width: 100%;
+    }
+  }
+  
